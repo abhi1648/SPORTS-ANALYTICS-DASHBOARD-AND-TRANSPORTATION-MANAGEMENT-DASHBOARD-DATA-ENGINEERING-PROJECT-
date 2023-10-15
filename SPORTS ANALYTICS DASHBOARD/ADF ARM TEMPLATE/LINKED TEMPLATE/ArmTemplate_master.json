@@ -1,0 +1,141 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "type": "string",
+            "metadata": "Data Factory name",
+            "defaultValue": "ManiDemoDF"
+        },
+        "linkedService_StorageDemoMani_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'linkedService_StorageDemoMani'"
+        },
+        "SqlServerOnPrem_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'SqlServerOnPrem'",
+            "defaultValue": "Integrated Security=True;Data Source=LENOVOFLEX5\\SQLEXPRESS;Initial Catalog=SoftwizSQLDatabase"
+        },
+        "SqlServerOnPrem_password": {
+            "type": "secureString",
+            "metadata": "Secure string for 'password' of 'SqlServerOnPrem'"
+        },
+        "AzureBlobStorage_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureBlobStorage'"
+        },
+        "linkedService_sp_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'linkedService_sp'",
+            "defaultValue": "Integrated Security=True;Data Source=LENOVOFLEX5\\SQLEXPRESS;Initial Catalog=SoftwizSQLDatabase"
+        },
+        "linkedService_sp_password": {
+            "type": "secureString",
+            "metadata": "Secure string for 'password' of 'linkedService_sp'"
+        },
+        "EventTrigger_properties_pipeline1_parameters_SourcePath": {
+            "type": "string",
+            "defaultValue": "@triggerBody().filePath"
+        },
+        "EventTrigger_properties_pipeline1_parameters_SourceFile": {
+            "type": "string",
+            "defaultValue": "@triggerBody().fileName"
+        },
+        "EventTrigger_properties_typeProperties_scope": {
+            "type": "string",
+            "defaultValue": "/subscriptions/d812ee81-200b-4139-ad80-b4fdf2f20841/resourceGroups/ResourceGroup_Demo/providers/Microsoft.Storage/storageAccounts/storagedemomani"
+        },
+        "SqlServerOnPrem_properties_typeProperties_userName": {
+            "type": "string",
+            "defaultValue": "LENOVOFLEX5\\KIIT"
+        },
+        "linkedService_sp_properties_typeProperties_userName": {
+            "type": "string",
+            "defaultValue": "LENOVOFLEX5\\KIIT"
+        },
+        "containerUri": {
+            "type": "string",
+            "metadata": "URI to storage account containing linked ARM templates"
+        },
+        "containerSasToken": {
+            "type": "string",
+            "metadata": "Sas token to storage account containing linked ARM templates"
+        }
+    },
+    "variables": {
+        "factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+    },
+    "resources": [
+        {
+            "name": "ManiDemoDF_ArmTemplate_0",
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2018-02-01",
+            "properties": {
+                "mode": "incremental",
+                "templateLink": {
+                    "uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+                    "contentVersion": "1.0.0.0"
+                },
+                "parameters": {
+                    "factoryName": {
+                        "value": "[parameters('factoryName')]"
+                    },
+                    "linkedService_StorageDemoMani_connectionString": {
+                        "value": "[parameters('linkedService_StorageDemoMani_connectionString')]"
+                    },
+                    "AzureBlobStorage_connectionString": {
+                        "value": "[parameters('AzureBlobStorage_connectionString')]"
+                    },
+                    "SqlServerOnPrem_connectionString": {
+                        "value": "[parameters('SqlServerOnPrem_connectionString')]"
+                    },
+                    "SqlServerOnPrem_password": {
+                        "value": "[parameters('SqlServerOnPrem_password')]"
+                    },
+                    "linkedService_sp_connectionString": {
+                        "value": "[parameters('linkedService_sp_connectionString')]"
+                    },
+                    "linkedService_sp_password": {
+                        "value": "[parameters('linkedService_sp_password')]"
+                    },
+                    "SqlServerOnPrem_properties_typeProperties_userName": {
+                        "value": "[parameters('SqlServerOnPrem_properties_typeProperties_userName')]"
+                    },
+                    "linkedService_sp_properties_typeProperties_userName": {
+                        "value": "[parameters('linkedService_sp_properties_typeProperties_userName')]"
+                    },
+                    "EventTrigger_properties_pipeline1_parameters_SourcePath": {
+                        "value": "[parameters('EventTrigger_properties_pipeline1_parameters_SourcePath')]"
+                    },
+                    "EventTrigger_properties_pipeline1_parameters_SourceFile": {
+                        "value": "[parameters('EventTrigger_properties_pipeline1_parameters_SourceFile')]"
+                    },
+                    "EventTrigger_properties_typeProperties_scope": {
+                        "value": "[parameters('EventTrigger_properties_typeProperties_scope')]"
+                    }
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "ManiDemoDF_ArmTemplate_1",
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2018-02-01",
+            "properties": {
+                "mode": "incremental",
+                "templateLink": {
+                    "uri": "[concat(parameters('containerUri'), '/ArmTemplate_1.json', parameters('containerSasToken'))]",
+                    "contentVersion": "1.0.0.0"
+                },
+                "parameters": {
+                    "factoryName": {
+                        "value": "[parameters('factoryName')]"
+                    }
+                }
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Resources/deployments', 'ManiDemoDF_ArmTemplate_0')]"
+            ]
+        }
+    ]
+}
