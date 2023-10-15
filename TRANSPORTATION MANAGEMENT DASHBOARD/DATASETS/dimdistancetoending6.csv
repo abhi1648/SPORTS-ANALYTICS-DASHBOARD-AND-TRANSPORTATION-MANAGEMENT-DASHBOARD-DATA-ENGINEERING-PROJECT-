@@ -1,0 +1,185 @@
+Shipment ID,Distance Covered (Km),Fuel Consumptio(L),Transport Material Type,No of 1-way Trips,No of Return Trips,Far,Regular,Close,Starting_Country,Ending_Point
+1001,250,18,Electronics,5,3,3565,1052,701,New York,USA
+1002,180,49,Apparel,4,2,3716,2265,1375,Tokyo,Japan
+1003,300,68,Food Items,6,4,2779,1012,809,Paris,France
+1004,400,26,Industrial Supplies,8,5,1095,527,223,Beijing,China
+1005,350,10,Electronics,7,3,2047,1195,640,Dubai,UAE
+1006,280,27,Apparel,5,2,2376,1212,493,Toronto,Canada
+1007,230,38,Food Items,4,3,2604,1412,923,Cape Town,South Africa
+1008,370,45,Industrial Supplies,7,4,2658,968,774,Rome,Italy
+1009,260,25,Electronics,5,2,2163,1019,679,Buenos Aires,Argentina
+1010,240,22,Apparel,4,1,2384,1453,882,Nairobi,Kenya
+1011,330,33,Food Items,6,3,4861,1803,1822,Japan,Japan
+1012,420,76,Industrial Supplies,8,4,4370,2215,1313,France,France
+1013,290,74,Electronics,5,2,5101,1986,1513,China,China
+1014,270,49,Apparel,5,3,6193,1931,1562,UAE,UAE
+1015,220,52,Food Items,4,2,5638,1980,1386,Canada,Canada
+1016,360,63,Industrial Supplies,7,3,1779,240,437,South Africa,South Africa
+1017,250,29,Electronics,5,1,1549,426,213,Italy,Italy
+1018,230,12,Apparel,4,2,2241,673,436,Argentina,Argentina
+1019,320,19,Food Items,6,3,2271,1369,774,Kenya,Kenya
+1020,400,30,Industrial Supplies,8,4,2224,1070,453,Toronto,Canada
+1021,280,26,Electronics,5,2,Err:522,238,143,Cape Town,South Africa
+1022,250,12,Apparel,5,1,1972,670,564,Rome,Italy
+1023,200,29,Food Items,4,2,1609,501,290,Buenos Aires,Argentina
+1024,350,13,Industrial Supplies,7,3,946,285,253,Nairobi,Kenya
+1025,240,91,Electronics,5,1,2224,994,397,J+Y26:Z54apan,Japan
+1026,230,25,Apparel,4,2,4888,1421,868,France,France
+1027,300,66,Food Items,6,3,2017,721,540,China,China
+1028,400,31,Industrial Supplies,8,4,5380,2860,1760,UAE,UAE
+1029,280,57,Electronics,5,2,10285,3310,317,Canada,Canada
+1030,270,12,Apparel,5,3,2451,2962,1410,South Africa,South Africa
+1031,220,10,Food Items,4,2,2410,1206,446,Italy,Italy
+1032,360,37,Industrial Supplies,7,3,3175,1205,602,Japan,Japan
+1033,250,43,Electronics,5,1,296,877,335,France,France
+1034,230,21,Apparel,4,2,182,633,403,China,China
+1035,320,14,Food Items,6,3,2099,1011,428,UAE,UAE
+1036,400,25,Industrial Supplies,8,4,219,713,455,Canada,Canada
+1037,280,35,Electronics,5,2,3301,1862,601,South Africa,South Africa
+1038,250,50,Apparel,5,1,4060,1379,1161,Italy,Italy
+1039,200,37,Food Items,4,2,4929,1701,1106,Argentina,Argentina
+1040,350,44,Industrial Supplies,7,3,6113,2321,1160,Kenya,Kenya
+1041,240,68,Electronics,5,1,414,191,52,Toronto,Canada
+1042,230,76,Apparel,4,2,2096,674,636,Cape Town,South Africa
+1043,300,25,Food Items,6,3,1362,418,220,Rome,Italy
+1044,400,45,Industrial Supplies,8,4,360,169,188,Buenos Aires,Argentina
+1045,280,34,Electronics,5,2,1988,980,435,Nairobi,Kenya
+1046,270,35,Apparel,5,1,8350,2388,1327,Japan,Japan
+1047,220,12,Food Items,4,2,5329,2115,1712,France,France
+1048,360,52,Industrial Supplies,7,3,5634,2079,1287,China,China
+1049,250,21,Electronics,5,1,5732,2140,972,UAE,UAE
+1050,230,34,Apparel,4,2,3078,1305,652,Canada,Canada
+1051,320,21,Food Items,6,3,1993,910,644,South Africa,South Africa
+1052,400,32,Industrial Supplies,8,4,756,335,181,Italy,Italy
+1053,280,29,Electronics,5,2,1399,822,429,Canada,Canada
+1054,250,48,Apparel,5,1,1963,801,354,South Africa,South Africa
+1055,200,16,Food Items,4,2,1624,726,393,Italy,Italy
+1056,350,19,Industrial Supplies,7,3,1148,532,255,Argentina,Argentina
+1057,240,18,Electronics,5,1,1809,563,326,Kenya,Kenya
+1058,230,25,Apparel,4,2,1905,207,598,Toronto,Canada
+1059,300,19,Food Items,6,3,2523,812,767,Cape Town,South Africa
+1060,400,23,Industrial Supplies,8,4,3047,1016,302,Rome,Italy
+1061,280,34,Electronics,5,2,1095,527,223,Buenos Aires,Argentina
+1062,270,27,Apparel,5,1,2047,1195,640,Nairobi,Kenya
+1063,220,38,Food Items,4,2,2376,1212,493,J+Y26:Z54apan,Japan
+1064,360,45,Industrial Supplies,7,3,2604,1412,923,France,France
+1065,250,25,Electronics,5,1,2658,968,774,China,China
+1066,230,22,Apparel,4,2,2163,1019,679,UAE,UAE
+1067,320,33,Food Items,6,3,2384,1453,882,Canada,Canada
+1068,400,32,Industrial Supplies,8,4,4861,1803,1822,South Africa,South Africa
+1069,280,34,Electronics,5,2,4370,2215,1313,Italy,Italy
+1070,250,39,Apparel,5,1,5101,1986,1513,Japan,Japan
+1071,200,25,Food Items,4,2,6193,1931,1562,France,France
+1072,350,39,Industrial Supplies,7,3,5638,1980,1386,China,China
+1073,240,25,Electronics,5,1,1779,240,437,UAE,UAE
+1074,230,29,Apparel,4,2,1549,426,213,Canada,Canada
+1075,300,27,Food Items,6,3,2241,673,436,South Africa,South Africa
+1076,400,24,Industrial Supplies,8,4,2271,1369,774,Italy,Italy
+1077,280,26,Electronics,5,2,2224,1070,453,Argentina,Argentina
+1078,270,28,Apparel,5,1,704,238,143,Kenya,Kenya
+1079,220,23,Food Items,4,2,1972,670,564,Toronto,Canada
+1080,360,37,Industrial Supplies,7,3,1609,501,290,Cape Town,South Africa
+1081,250,46,Electronics,5,1,946,285,253,Rome,Italy
+1082,230,25,Apparel,4,2,2224,994,397,Buenos Aires,Argentina
+1083,320,66,Food Items,6,3,4888,1421,868,Nairobi,Kenya
+1084,400,31,Industrial Supplies,8,4,2017,721,540,Japan,Japan
+1085,280,57,Electronics,5,2,5380,2860,1760,France,France
+1086,250,95,Apparel,5,1,10285,3310,317,China,China
+1087,200,91,Food Items,4,2,2451,2962,1410,UAE,UAE
+1088,350,37,Industrial Supplies,7,3,2410,1206,446,Canada,Canada
+1089,240,46,Electronics,5,1,3175,1205,602,South Africa,South Africa
+1090,230,21,Apparel,4,2,296,877,335,Italy,Italy
+1091,300,14,Food Items,6,3,182,633,403,France,France
+1092,400,25,Industrial Supplies,8,4,2099,1011,428,China,China
+1093,280,35,Electronics,5,2,219,713,455,UAE,UAE
+1094,270,50,Apparel,5,1,3301,1862,601,Canada,Canada
+1095,220,37,Food Items,4,2,4060,1379,1161,South Africa,South Africa
+1096,360,44,Industrial Supplies,7,3,4929,1701,1106,Italy,Italy
+1097,250,68,Electronics,5,1,6113,2321,1160,Argentina,Argentina
+1098,230,76,Apparel,4,2,414,191,52,Kenya,Kenya
+1099,320,31,Food Items,6,3,2096,674,636,Toronto,Canada
+1100,400,11,Industrial Supplies,8,4,1362,418,220,Cape Town,South Africa
+1101,280,34,Electronics,5,2,360,169,188,Rome,Italy
+1102,250,23,Apparel,5,1,1988,980,435,Buenos Aires,Argentina
+1103,200,12,Food Items,4,2,8350,2388,1327,Nairobi,Kenya
+1104,350,4,Industrial Supplies,7,3,5329,2115,1712,Japan,Japan
+1105,240,52,Electronics,5,1,5634,2079,1287,France,France
+1106,230,50,Apparel,4,2,5732,2140,972,China,China
+1107,300,42,Food Items,6,3,3078,1305,652,UAE,UAE
+1108,400,32,Industrial Supplies,8,4,1993,910,644,Canada,Canada
+1109,280,12,Electronics,5,2,756,335,181,South Africa,South Africa
+1110,270,14,Apparel,5,1,1399,822,429,Italy,Italy
+1111,220,16,Food Items,4,2,1963,801,354,New York,USA
+1112,360,19,Industrial Supplies,7,3,1624,726,393,Tokyo,Japan
+1113,250,18,Electronics,5,1,1148,532,255,Paris,France
+1114,230,25,Apparel,4,2,1809,563,326,Beijing,China
+1115,320,19,Food Items,6,3,1905,207,598,Dubai,UAE
+1116,400,23,Industrial Supplies,8,4,2523,812,767,Toronto,Canada
+1117,280,34,Electronics,5,2,3047,1016,302,Cape Town,South Africa
+1118,250,76,Apparel,5,1,2047,1195,640,Rome,Italy
+1119,200,74,Food Items,4,2,2376,1212,493,Buenos Aires,Argentina
+1120,350,49,Industrial Supplies,7,3,2604,1412,923,Nairobi,Kenya
+1121,240,52,Electronics,5,1,2658,968,774,Japan,Japan
+1122,230,63,Apparel,4,2,2163,1019,679,France,France
+1123,300,29,Food Items,6,3,2384,1453,882,South Africa,South Africa
+1124,400,12,Industrial Supplies,8,4,4861,1803,1822,Italy,Italy
+1125,280,19,Electronics,5,2,4370,2215,1313,New York,USA
+1126,270,30,Apparel,5,1,5101,1986,1513,New York,USA
+1127,220,26,Food Items,4,2,6193,1931,1562,Tokyo,Japan
+1128,360,12,Industrial Supplies,7,3,5638,1980,1386,Paris,France
+1129,250,29,Electronics,5,1,1779,240,437,Beijing,China
+1130,230,13,Apparel,4,2,1549,426,213,Dubai,UAE
+1131,320,91,Food Items,6,3,2241,673,436,Toronto,Canada
+1132,400,25,Industrial Supplies,8,4,2271,1369,774,Cape Town,South Africa
+1133,280,66,Electronics,5,2,2224,1070,453,Rome,Italy
+1134,250,31,Apparel,5,1,Err:522,238,143,Buenos Aires,Argentina
+1135,200,57,Food Items,4,2,1972,670,564,Nairobi,Kenya
+1136,350,12,Industrial Supplies,7,3,1609,501,290,Japan,Japan
+1137,240,10,Electronics,5,1,946,285,253,France,France
+1138,230,37,Apparel,4,2,2224,994,397,China,China
+1139,300,43,Food Items,6,3,4888,1421,868,UAE,UAE
+1140,400,21,Industrial Supplies,8,4,2017,721,540,Canada,Canada
+1141,280,14,Electronics,5,2,5380,2860,1760,South Africa,South Africa
+1142,270,25,Apparel,5,1,10285,3310,317,Italy,Italy
+1143,220,35,Food Items,4,2,2451,2962,1410,Argentina,Argentina
+1144,360,50,Industrial Supplies,7,3,2410,1206,446,Kenya,Kenya
+1145,250,37,Electronics,5,1,3175,1205,602,Toronto,Canada
+1146,230,44,Apparel,4,2,296,877,335,Cape Town,South Africa
+1147,320,68,Food Items,6,3,182,633,403,Rome,Italy
+1148,400,76,Industrial Supplies,8,4,2099,1011,428,Buenos Aires,Argentina
+1149,280,25,Electronics,5,2,219,713,455,Nairobi,Kenya
+1150,250,45,Apparel,5,1,3301,1862,601,Japan,Japan
+1151,200,34,Food Items,4,2,4060,1379,1161,France,France
+1152,350,35,Industrial Supplies,7,3,4929,1701,1106,China,China
+1153,240,12,Electronics,5,1,6113,2321,1160,UAE,UAE
+1154,230,52,Apparel,4,2,414,191,52,Canada,Canada
+1155,300,21,Food Items,6,3,2096,674,636,South Africa,South Africa
+1156,400,34,Industrial Supplies,8,4,1362,418,220,Italy,Italy
+1157,280,21,Electronics,5,2,360,169,188,New York,USA
+1158,270,32,Apparel,5,1,1988,980,435,Tokyo,Japan
+1159,220,29,Food Items,4,2,8350,2388,1327,Paris,France
+1160,360,48,Industrial Supplies,7,3,5329,2115,1712,Beijing,China
+1161,250,16,Electronics,5,1,5634,2079,1287,Dubai,UAE
+1162,230,19,Apparel,4,2,5732,2140,972,Toronto,Canada
+1163,320,18,Food Items,6,3,3078,1305,652,Cape Town,South Africa
+1164,400,25,Industrial Supplies,8,4,1993,910,644,Rome,Italy
+1165,280,19,Electronics,5,2,756,335,181,Buenos Aires,Argentina
+1166,250,23,Apparel,5,1,1399,822,429,Nairobi,Kenya
+1167,200,34,Food Items,4,2,1963,801,354,Japan,Japan
+1168,350,27,Industrial Supplies,7,3,1624,726,393,France,France
+1169,240,38,Electronics,5,1,1148,532,255,China,China
+1170,230,45,Apparel,4,2,1809,563,326,UAE,UAE
+1171,300,25,Food Items,6,3,1905,207,598,Canada,Canada
+1172,400,22,Industrial Supplies,8,4,2523,812,767,South Africa,South Africa
+1173,280,33,Electronics,5,2,3047,1016,302,Italy,Italy
+1174,270,32,Apparel,5,1,1095,527,223,Argentina,Argentina
+1175,220,34,Food Items,4,2,2047,1195,640,Kenya,Kenya
+1176,360,39,Industrial Supplies,7,3,2376,1212,493,Toronto,Canada
+1177,250,25,Electronics,5,1,2604,1412,923,Cape Town,South Africa
+1178,230,39,Apparel,4,2,2658,968,774,Rome,Italy
+1179,320,25,Food Items,6,3,2163,1019,679,Buenos Aires,Argentina
+1180,400,29,Industrial Supplies,8,4,2384,1453,882,Nairobi,Kenya
+1181,280,27,Electronics,5,2,4861,1803,1822,J+Y26:Z54apan,Japan
+1182,250,24,Apparel,5,1,4370,2215,1313,France,France
+1183,200,26,Food Items,4,2,5101,1986,1513,China,China
+1184,350,28,Industrial Supplies,7,3,6193,1931,1562,UAE,UAE
