@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "ManiDemoDF"
+        },
+        "linkedService_StorageDemoMani_connectionString": {
+            "value": ""
+        },
+        "SqlServerOnPrem_connectionString": {
+            "value": "Integrated Security=True;Data Source=LENOVOFLEX5\\SQLEXPRESS;Initial Catalog=SoftwizSQLDatabase"
+        },
+        "SqlServerOnPrem_password": {
+            "value": ""
+        },
+        "AzureBlobStorage_connectionString": {
+            "value": ""
+        },
+        "linkedService_sp_connectionString": {
+            "value": "Integrated Security=True;Data Source=LENOVOFLEX5\\SQLEXPRESS;Initial Catalog=SoftwizSQLDatabase"
+        },
+        "linkedService_sp_password": {
+            "value": ""
+        },
+        "EventTrigger_properties_pipeline1_parameters_SourcePath": {
+            "value": "@triggerBody().filePath"
+        },
+        "EventTrigger_properties_pipeline1_parameters_SourceFile": {
+            "value": "@triggerBody().fileName"
+        },
+        "EventTrigger_properties_typeProperties_scope": {
+            "value": "/subscriptions/d812ee81-200b-4139-ad80-b4fdf2f20841/resourceGroups/ResourceGroup_Demo/providers/Microsoft.Storage/storageAccounts/storagedemomani"
+        },
+        "SqlServerOnPrem_properties_typeProperties_userName": {
+            "value": "LENOVOFLEX5\\KIIT"
+        },
+        "linkedService_sp_properties_typeProperties_userName": {
+            "value": "LENOVOFLEX5\\KIIT"
+        }
+    }
+}
