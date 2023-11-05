@@ -35,3 +35,7 @@ For a comprehensive understanding of the project, including how to set it up and
 -- SPORTS ANALYTICS DASHBOARD                         -     https://youtu.be/WzSuifNbpDQ
 
 -- TRANSPORTATION & LOGISTIC MANAGEMENT DASHBOARD   -     https://youtu.be/J5KgPBWEkNY
+
+## Contributors
+-- Mani Gupta
+
