@@ -32,10 +32,20 @@ Welcome to the Sports Analytics & Transportation and Logistic Management Dashboa
 
 For a comprehensive understanding of the project, including how to set it up and utilize its features, you can watch our project demo video.
 
--- SPORTS ANALYTICS DASHBOARD                         -     https://youtu.be/WzSuifNbpDQ
+### SPORTS ANALYTICS DASHBOARD - 
+<p align="center">
+   <a href="https://youtu.be/WzSuifNbpDQ">
+<img src="https://github.com/abhi1648/SPORTS-ANALYTICS-DASHBOARD-AND-TRANSPORTATION-MANAGEMENT-DASHBOARD-DATA-ENGINEERING-PROJECT-/blob/main/SPORTS%20ANALYTICS%20DASHBOARD/Screenshot%202023-10-12%20080719.png" width="50%">
+      </a>
+  </p>
 
--- TRANSPORTATION & LOGISTIC MANAGEMENT DASHBOARD   -     https://youtu.be/J5KgPBWEkNY
-
+### TRANSPORT AND LOGISTIC MANAGEMENT DASHBOARD - 
+  <p align="center">
+   <a href="https://youtu.be/J5KgPBWEkNY">
+<img src="https://github.com/abhi1648/SPORTS-ANALYTICS-DASHBOARD-AND-TRANSPORTATION-MANAGEMENT-DASHBOARD-DATA-ENGINEERING-PROJECT-/blob/main/TRANSPORTATION%20MANAGEMENT%20DASHBOARD/Screenshot%202023-07-31%20231454.png" width="50%">
+      </a>
+  </p>
+  
 ## Contributors
 -- Mani Gupta
 
